@@ -13,7 +13,7 @@ import pandas as pd
 # %%
 #---IMPORT DATA & ADD NAMES---#
 
-df_names = ['cycle','time_start','time_end','x','y','z', 'By','dBy','Bz','dBz','Bx','dBx']
+df_names = ['cycle','time_start','time_end','x','y','z', 'Bx','dBx','By','dBy','Bz','dBz']
 df1 = pd.read_csv('raw/20200201_1026_Feb01_map_avg.csv', names=df_names)
 df2 = pd.read_csv('raw/20200201_1356_Feb01_map_02_avg.csv', names=df_names)
 df3 = pd.read_csv('raw/20200202_1119_Feb02_map01_avg.csv', names=df_names)
